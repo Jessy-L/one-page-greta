@@ -1,3 +1,18 @@
+:root{
+    --color-HFN: #262A45;
+    --color-police: #262A45;
+    --color-button: #DC3545;
+    --color-button-recherche: #36BB9D;
+    --color-button-recherche-hover: #5bffd9;
+    --color-fond-info-en-bref: #36BB9D;
+    --color-fond-en-bref-block-info: #DBE0EC;
+    --color-fond-card: #DBE0EC;
+    --color-footer-p: #36BB9D;
+    --color-caroussel-caption : #262A45;
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,16 +22,8 @@ body{
 }
 
 
-header {
-    background: url("../img/devenir-dev.jpg") no-repeat fixed;
-    width: 100%;
-    height: 100%;
-    flex-direction: column-reverse;
-    bottom: 4vw;
-}
-
 .block-input , nav, footer {
-    background-color: #262A45;
+    background-color: var(--color-HFN);
 }
 
 input[type=search]{
@@ -36,22 +43,30 @@ input[type=search]{
     top: -40px;
     width: 70px;
     background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 20px 20px;
-    background-color: #36BB9D;
-    border: #36BB9D;
+    background-color: var(--color-button-recherche);
+    border: var(--color-button-recherche);
 }
 
 .block-input button:hover{
-    background-color: #5bffd9; 
+    background-color: var(--color-button-recherche-hover); 
 }
 
+.carousel-caption{
+    background-color: var(--color-caroussel-caption);
+    border-radius: 5px;
+    position: absolute;
+    top :300px;
+    height: 110px;
+
+}
 
 .info-formation-en-bref{
-    width: 100%;
+    width: 70%;
     height: 300px;
 }
 
 .back-green-info{
-    background-color: #36BB9D;
+    background-color: var(--color-fond-info-en-bref);
     position: absolute;
     width: 60vw;
     left: 50px;
@@ -65,27 +80,55 @@ input[type=search]{
 
 .content-div .en-bref{
     font-size: 30px;
+    font-style: italic;
 }
 
 .content-text-div{
     width: 200px;
     height: 200px;
-    background-color: #DBE0EC;
+    background-color: var(--color-fond-en-bref-block-info);
     padding: 10px;
 }
 
 
+.infomation-detail article {
+    width: 70%;
+    padding: 50px;
+    font-size: 1.5em;
+}
 
+.infomation-detail article p{
+    text-align: justify;
+}
 
+.infomation-detail article h2{
+    padding-left: 50px;
+    font-style: italic;
+}
 
+input[type=button]{
+    background-color: white;
+    border: 1px solid var(--color-button);
+    color: var(--color-button);
+    transition: 0.5s;
+    font-size: 2em;
+    font-style: italic;
+    padding: 15px;
+}
 
+input[type=button]:hover{
+    
+    background-color: var(--color-button);
+    color: white;
+}
 
-
-
+.card{
+    background-color: var(--color-fond-card);
+}
 
 
 footer p{
-    color: #36BB9D;
+    color: var(--color-footer-p);
 }
 
 footer a{

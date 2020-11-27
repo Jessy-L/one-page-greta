@@ -33,33 +33,180 @@
         </nav>
 
         <div class="block">
-            <img src="img/devenir-dev.jpg" alt="devenir dev" class="img-fluid">
-            
-            <div class="block-input text-center p-2 d-flex justify-content-center">
-                <input type="search" name="search" id="search">
-                <button></button>
-            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/devenir-dev.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>La Formation N°1 Dans le haut de France</h5>
+                      <p>Des conseillers en formation continue sont à votre écoute pour vous aider </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/dev.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/web-development.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Notre GRETA a un taux de réussite de 82%</h5>
+                      <p>Un Taux de satisfaction de 90% pour les Validations des Acquis de l’Expérience sur un total de 131 personnes accompagnées en 2019.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </header>
 
     <main>
         <section class="info-formation-en-bref m-5">
-            <div class="" >
+            <div>
                 <div class="back-green-info"></div>
                 <div class=" content-div justify-content-around d-flex">
                     <p class="m-auto en-bref">EN BREF</p>
-                    <div class="content-text-div mt-5 ml-5">
+                    <div data-aos="fade-right" class="content-text-div mt-5 ml-5">
                         <p class="p-3">UNE FORMATION COMPLÈTE EN PRÉSENTIEL OU TELE-PRESENTIEL</p>
                     </div>
-                    <div class="content-text-div mt-5 ml-5">
+                    <div data-aos="fade-right" class="content-text-div mt-5 ml-5">
                         <p class="p-3">CERTIFICATIONS ET DIPLÔME BAC+2 RNCP</p>
                     </div>
-                    <div class="content-text-div mt-5 ml-5">
+                    <div data-aos="fade-right" class="content-text-div mt-5 ml-5">
                         <p class="p-3">1200 HEURE DE FORMATION</p>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <section class="infomation-detail">
+            <article>
+                <h2>LE METIER</h2>
+                <p>
+                    Un Développeur web travaille seul ou en équipe pour concevoir et coder des sites web, logiciels, applications mobiles, etc pour tout type d’entreprises. Aujourd’hui indispensable dans tous les secteurs d’activités, la formation développeur web vous permet d’exercer au sein de tous types d’entreprises (startup, grand groupe, cabinet de conseil, agences web) ou de devenir freelance après quelques années d’expérience. En équipe ou en autonomie, un développeur web est chargé de concevoir et de développer le front-end (la partie graphique, ergonomique et visible par l’utilisateur final) et back-end (la partie invisible de l’utilisateur final qui définit la ressource pour servir les services frontaux).
+                </p>
+            </article>
+
+            <article>
+                <h2>LA FORMATION</h2>
+                <p>
+                    La formation développeur web, intensive, pratique et complète, permet d’acquérir toutes les compétences nécessaires pour être immédiatement opérationnel en entreprise. En formation continue ou en alternance, bénéficiez d’une formation intensive et diplômante pour un accès ou retour rapide à l’emploi ! La formation développeur web est ouverte à tous les profils débutants, sans pré-requis de diplômes et sans besoin de connaissances en programmation. Notre formation développeur web mène à un diplôme BAC+2 (titre professionnel reconnu et délivré par l’Etat).
+                </p>
+            </article>
+
+
+            <article>
+                <h2>PRE-REQUIS</h2>
+                <p>
+                    Être titulaire du baccalauréat ou équivalent, de préférence scientifique ou technologique. <br>
+                    Goût et pratique courante recommandée de l'ordinateur, des smartphones et tablettes tactiles ainsi que de leurs outils (outils des systèmes d’exploitation, bureautique et internet). <br>
+                    Pratique de l'anglais à l’oral et à l’écrit (lire, comprendre des textes courts, poser des questions simples et exprimer ses opinions).
+                </p>
+            </article>
+
+
+            <article>
+                <h2>DIPLÔMES ET CERTIFICATIONS</h2>
+                <p>
+                    Certifications professionnelles CNCP (catégorie C) :
+                    
+                    <ul>
+                        <li>Techniques d’intégration Web (front-end)</li>
+                        <li>Techniques de développement Web (back-end)</li>
+                    </ul>
+                    <br><br>
+                    Titre professionnel RNCP BAC+2 (reconnu et délivré par l’Etat, niveau 5, bac+2).
+                    <br><br>
+                    <ul>
+                        <li>Développeur web et web mobile</li>
+                    </ul>
+                    <br><br>
+                    Entretien face à un jury.
+                </p>
+            </article>
+
+            <div class="text-center">
+                <input type="button" value="Télécharger la fiche">
+            </div>
+        </section>
+
+        <section>
+            <div id="accordion">
+                <div class="card m-5">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Dévolopper la partie front-end d'une application web 
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                        <p>
+                            Le développement web frontal correspond aux productions HTML, CSS et JavaScript d’une page internet ou d’une application qu’un utilisateur peut voir et avec lesquelles il peut interagir directement.                    
+                            <br><br>
+
+                            <ul>
+                                <li>Maquetter une application</li>
+                                <li>Réaliser une interface utilisateur web statique et adaptable </li>
+                                <li>Developper une interface utilisateur web dynamique </li>
+                                <li>Réaliser une interface utilisateur avec une solusion de gestion de contenu ou e-commerce</li>
+                            </ul>
+
+                        </p>
+                            
+                    </div>
+                  </div>
+                </div>
+                <div class="card m-5">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Développer la partie back-end d'une application web
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>
+                            En informatique, un back-end est un terme désignant un étage de sortie d'un logiciel devant produire un résultat. On l'oppose au front-end qui lui est la partie visible de l'iceberg                    
+                            <br><br>
+                            <ul>
+                                <li>Créer une base de données </li>
+                                <li>Développer les composants d'accès aux données </li>
+                                <li>Développer la partie back-end d'une application web ou web mobile </li>
+                                <li>Élaborer et mettre en oeuvre des composants dans une application de gestion de contenu ou e-commerce</li>
+                            </ul>
+                        
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card m-5 ">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Maquettage
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>
+                            Une maquette de site web : c’est quoi ? <br> <br>
+
+                            La sémantique autour de l’expression “maquette de site web” est assez vaste. Autrement dit, on se retrouve souvent avec plusieurs expressions techniques dès les premières recherches. Il s’agit par exemple de mockup, wireframe, zoning, maquette graphique, ergolayout, interfaçage graphique et bien d’autres. Il est donc difficile de savoir par quoi commencer et quoi faire lorsque vous n’êtes pas du domaine. Pour simplifier les choses, je vais classer ces différents termes dans deux réalités distinctes.
+                        </p>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+        </section>
+
     </main>
 
     <footer class="d-flex justify-content-lg-around align-middle p-5">
